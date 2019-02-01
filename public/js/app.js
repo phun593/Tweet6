@@ -13955,9 +13955,43 @@ Vue.component('example-component', __webpack_require__(39));
  * the page. Then, you may begin adding components to this application
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
+var gif = Vue.component('gif-search', {
+
+            template: '\n        <div>\n            <input \n            @keyup.enter="getGifs" \n            type="text" \n            v-model="searchQuery"\n            \n            >\n            <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg">Search</button>\n            \n\n            <div class="modal fade bd-example-modal-lg mt-5" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">\n\t\t\t  <div class="modal-dialog modal-lg">\n\t\t\t    <div class="modal-content">\n\t\t\t      <img class="gif-preview" \n                v-for="gif in searchResults" \n                :src="gif.images.downsized.url" \n                @click="saveGif(gif.images.downsized.url)" >\n\t\t\t    </div>\n\t\t\t  </div>\n\t\t\t</div>\n\n\n\n\n\n\n\n\n            <div class="preview-window"\n                v-show="searchResults.length > 0" >\n                <img class="gif-preview" \n                v-for="gif in searchResults" \n                :src="gif.images.downsized.url" \n                @click="saveGif(gif.images.downsized.url)" >\n\n            </div>\n\n\n            <div class="save-gif" V-for="gif in saveGifs">\n            \n                <img v-for="gif in searchResults" :src="gif" >\n\n            </div>\n        </div>\n        ',
+
+            data: function data() {
+
+                        return {
+
+                                    searchQuery: "",
+                                    searchResults: []
+
+                        };
+            },
+
+
+            methods: {
+                        saveGif: function saveGif(gif) {
+
+                                    this.saveGif.push(gif);
+                                    this.searchResults = [];
+                                    this.searchQuery = "";
+                        },
+                        getGifs: function getGifs() {
+                                    var _this = this;
+
+                                    axios.get("http://api.giphy.com/v1/gifs/search?q=" + this.searchQuery + "&api_key=5A9hK07JmTgsFwmAzbayqWDkg6ZwcGID&limit=10").then(function (response) {
+                                                // console.log(response.data);
+
+                                                _this.searchResults = response.data.data;
+                                    });
+                        }
+            }
+
+});
 
 var app = new Vue({
-  el: '#app'
+            el: '#app'
 });
 
 /***/ }),

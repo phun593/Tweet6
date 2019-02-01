@@ -17,6 +17,11 @@ class PostController extends Controller
 
 		return view ('post.index');
 	}
+	public function indexpage(){
+		 return view ('mainPage.index');
+
+
+	}
 
 
 	public function profile(){

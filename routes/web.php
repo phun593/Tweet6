@@ -12,9 +12,11 @@
 Route::get('/','PostController@getindex');
 Route::get('/home','PostController@home');
 Route::get('/profile','PostController@profile');
+Route::get('/homepage', 'PostController@indexpage');
 Auth::routes();
 Route::post('/tweet','TweetController@store');
 Route::get('/home', 'HomeController@index')->name('home');
+
 Route::get('/logout', 'Auth\LoginController@logout');
 Route::get('/tweet/{id}','TweetController@destroy');
 Route::get('/info','AvatarController@upload');

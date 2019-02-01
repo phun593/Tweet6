@@ -44,11 +44,18 @@
                 <div class="card card-body">
                     <h5>Add Comments</h5>
                     
-                    <form method="post" action="{{ url('/comment/'.$tweet->id)}}">
+                    <!-- <form method="post" action="{{ url('/comment/'.$tweet->id)}}"> -->
                         @csrf
-                        <input type="text" class="form-control" name="body" >
-                        <button type="submitt" class="btn btn-primary">Post comment</button>
-                    </form>
+
+                       <gif-search></gif-search>
+
+                        <!-- <input type="text" class="form-control" name="body">
+                        <button type="submitt" class="btn btn-primary">Post comment</button> -->
+                    <!-- </form> -->
+                    
+
+
+
                     @foreach($tweet->comments as $comment)
                     <h3>{{ $comment->user->name }}</h3>
                     <p>{{ $comment->body }}</p>

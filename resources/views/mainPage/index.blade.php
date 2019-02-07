@@ -22,7 +22,7 @@
 							<img class=" animated slideInDown rounded mx-auto d-block mb-15"  src="{{url('/')}}/img/logo.png" alt="">
 						</li>
 					</ul>
-					<head><h1 class="animated bounceInLeft delay-1s">Wellcom to Tweeter</h1></head>
+					<head><h1 class="animated bounceInLeft delay-1s">Wellcom to Tweeter7</h1></head>
 					<p class="animated bounceInRight delay-1s">Where You Can Stay up to Datate with in th word of banding</p>
 					<div class="container">
 						<div class="row text-center">

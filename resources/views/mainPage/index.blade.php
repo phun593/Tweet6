@@ -28,14 +28,23 @@
 						<div class="row text-cente mb-5 pb-5">
 							<div class="col-md-3">
 								<i class="fas fa-search"></i><h4>Follow the best  Bending Master in the world.</h4>
-								<button type="button" class=" animated pulse btn btn-danger btn-lg " id="logobutton">Log In</button><br>
+								<form method="post" action="{{'/loginPage'}}">
+									@csrf
+									<button type="submitt" class=" animated pulse btn btn-danger btn-lg " id="logobutton">Log In</button><br>
+									
+								</form>
+								
 							</div>
 							<div class=col-md-6>
 								<i class="far fa-comments"></i><h4>Join the conversation.</h4>
 							</div>
 							<div class="col-md-3">
 								<i class="fas fa-user-friends"></i><h4>Hear what people are talking about.</h4>
-								<button type="button" class=" animated pulse btn btn-danger btn-lg" id="logobutton">SIGN UP</button>
+								<form method="post" action="{{'/registerPage'}}">
+									@csrf
+									<button type="submitt" class=" animated pulse btn btn-danger btn-lg" id="logobutton">SIGN UP</button>
+								</form>
+								
 							</div>
 						</div>
 					</div>

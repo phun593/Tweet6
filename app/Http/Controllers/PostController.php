@@ -10,7 +10,13 @@ use Illuminate\Support\Facades\Auth;
 class PostController extends Controller
 {
     public function getindex(){
+		return view('mainPage.index');
+	}
+	public function loginPage(){
 		return view('auth.login');
+	}
+	public function registerPage(){
+		return view('auth.register');
 	}
 	public function home(){
 		$Avatar = Auth::user()->avatar;

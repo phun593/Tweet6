@@ -10,6 +10,9 @@
 |
 */
 Route::get('/','PostController@getindex');
+Route::post('/loginPage','PostController@loginPage');
+Route::post('/registerPage','PostController@registerPage');
+
 Route::get('/home','PostController@home');
 Route::get('/profile','PostController@profile');
 Route::get('/homepage', 'PostController@indexpage');

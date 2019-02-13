@@ -28,7 +28,7 @@ class HomeController extends Controller
         
         // $user = Auth::user()->id;
         
-        $tweets = Tweet::orderBy('created_at','desc')->get();
+        $tweets = Tweet::orderBy('created_at','desc')->paginate(5);
         $follows = Follow::all();
         $data['follows'] = $follows;
         $Avatar= Auth::user()->avatar;

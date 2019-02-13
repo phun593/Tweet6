@@ -179,6 +179,8 @@ return [
 
         Intervention\Image\ImageServiceProvider::class,
 
+        Laravel\Socialite\SocialiteServiceProvider::class,
+
     ],
 
     /*
@@ -231,6 +233,8 @@ return [
         // 'Agent' => Jenssegers\Agent\Facades\Agent::class,
 
         'Image' => Intervention\Image\Facades\Image::class,
+
+        'Socialite' => Laravel\Socialite\Facades\Socialite::class,
 
     ],
 

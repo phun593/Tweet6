@@ -21,23 +21,17 @@
       <li class="nav-item">
         <a class="nav-link"  href="/find">Find Friends</a>
       </li>
-
     </ul>
     
     
     
-    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-dark my-2 my-sm-0" type="submit">Search</button>
+    <div class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" placeholder="Search" aria-label="Search"  v-model="search">
+      <button class="btn btn-outline-dark my-2 my-sm-0" type="submit" @click.pervent="searchUser" >Search</button>
       
-
-      <div class="name">{{ Auth::user()->name }}</div> 
-
+      <div class="name">{{ Auth::user()->name }}</div>
       <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
         <div class="btn-group" role="group" style="margin-right: 100px; margin-left:5px; ">
-
-
-
           <button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           <img src="{{url('/')}}/img/556511.jpg" alt="..." class="rounded-circle" style="height: 0px;">
           </button>
@@ -45,36 +39,32 @@
             <a class="dropdown-item" href="/info">Account Info</a>
             <a class="dropdown-item" href="{{ url('/logout') }}">Logout</a>
             
-              
-
+            
           </div>
         </div>
       </div>
-    </form>
-     
+    </div>
     
-  <!-- </div> -->
-  
-</nav>
-
-
-
-<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Messages</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-        <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        "I laugh at gravity all the time!" -- Avatar Aang
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Send Messages</button>
+    
+    <!-- </div> -->
+    
+  </nav>
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Messages</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          "I laugh at gravity all the time!" -- Avatar Aang
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Send Messages</button>
+        </div>
       </div>
     </div>
   </div>
-</div>

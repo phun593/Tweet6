@@ -13,25 +13,30 @@
             <a href="#" class="btn btn-dark">Find out more </a>
         </div>
     </div>
-    <div class="col-lg-16">
+    <div class="col-lg-16 mt-5">
         
         <div class="card" >
             <div class="card-body">
-                <div>
-                    <center><h5>Following</h5></center>
+                
+                <center><h5>Following</h5></center>
+                
+                <div class="list-group following">
                     @foreach($follows as $name)
-                    <div class="card-text">
+                    <li class="list-group-item">
                         <img src="/uploads/avatars/{{$user->avatar}}" style="width:50px; height:50px; float:left; border-radius:50%; margin-right:25px;">
-                        <h3 class="card-text">{{$name->name}}<h3>
-                    </div>
+                        <h3 class="card-text" style=" float: left;">{{$name->name}}<h3>
+                    </li>
+                    
                     @endforeach
                 </div>
+                
+                
                 
             </div>
         </div>
     </div>
     
-    <div class="col-lg-16">
+    <div class="col-lg-16 mt-3">
         
         <div class="card" >
             <div class="card-body">

@@ -11499,9 +11499,11 @@ nav .name {
 }
 
 #section0 h1 {
-  color: black;
+  color: white;
   text-transform: uppercase;
-  font-family: "Open Sans",X-LocaleSpecific,sans-serif;
+  font-family: "Germania One", cursive;
+  font-weight: bold;
+  font-style: italic;
   font-size: 40px;
 }
 
@@ -11579,5 +11581,14 @@ nav .name {
 .fa-search,
 .fa-user-friends {
   font-size: 75px;
+}
+
+.fa-arrow-down {
+  margin-top: 140px;
+  font-size: 35px;
+}
+
+.following li {
+  border: none;
 }
 

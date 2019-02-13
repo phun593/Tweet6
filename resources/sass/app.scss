@@ -9,7 +9,6 @@ body{
   background-color: #eff6f6;
   font-family: 'Lato', sans-serif;
   color: #000000;
-
 // background-color: red;
 }
 .navbar-laravel {
@@ -33,8 +32,6 @@ body{
 // background-attachment: fixed;
 background-position: center;
 }
-
-
 .btn.btn-info{
   margin:5px 0px 0px 0px;
 }
@@ -52,58 +49,51 @@ nav .name {
 .copy {
   margin-top: -100px;
 }
-
-
-
-
 #section0{
   background-image:url(/img/656517.png);
-  // width: 100%;
-  // max-width: 100%;
-  // height: 100%;
-  background-size: cover;
+// width: 100%;
+// max-width: 100%;
+// height: 100%;
+background-size: cover;
 // margin-top: -50px;
 }
 #section0 h1{
-
-  color: black;
+  color: white;
   text-transform: uppercase;
-  font-family: "Open Sans",X-LocaleSpecific,sans-serif;
-  font-size: 40px;
+// font-family: "Germania One",X-LocalGermania OneeSpecific,sans-serif;
+font-family: "Germania One", cursive;
+font-weight: bold;
+font-style: italic;
+font-size: 40px;
 // margin-top: -100px;
 }
 #section0 p{
   color: black;
   font-family: "Open Sans",X-LocaleSpecific,sans-serif;
 }
-
-
-
-
 #section1{
   background-image:url(/img/656517.png);
   background-size: cover;
-  // position: absolute;
+// position: absolute;
 // margin-top: -50px;
 }
 #logo{
 // margin-top: -150px;
 }
 .main{
-  margin-top: -350px; 
+  margin-top: -350px;
   position: absolute;
 }
 .logobutton{
-  // position: relative;
-  // margin-top: 25%;
-  // width: 25%;
+// position: relative;
+// margin-top: 25%;
+// width: 25%;
 }
 #section101{
   background-image:url(/img/961793.png);
   background-size: cover;
   background-position: center center;
   background-size: 100%;
-
 }
 #section102{
   background-image:url(/img/96183000.png);
@@ -139,8 +129,6 @@ background-position: center center;
   color: black;
   padding: 0px;
   font-family: "Open Sans",X-LocaleSpecific,sans-serif;
-
-
 }
 .slide{
   h1{
@@ -150,15 +138,25 @@ background-position: center center;
     margin-right: 5%;
     margin-left: 5%;
     margin-top: -15%;
-
-    }
+  }
 }
-
 .fa-comments,
 .fa-search,
 .fa-user-friends
 {
-  // color: white;
-  font-size: 75px;
+// color: white;
+font-size: 75px;
+}
 
+
+.fa-arrow-down{
+
+  margin-top: 140px;
+  font-size: 35px;
+
+}
+.following li{
+
+border: none;
+   
 }

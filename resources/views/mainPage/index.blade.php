@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<title>Tweeter</title>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta name="description" content="Tweeter">
+		<meta property="og:description" content="Tweeter Where You Can Stay up to Datate with in th word of banding">
 		
-		<title>Tweeter</title>
 	</head>
 	<link rel="stylesheet" type="text/css" href="{{url('/')}}/css/fullpage.css">
 	<link rel="stylesheet" type="text/css" href="{{url('/')}}/css/examples.css">
@@ -19,7 +21,7 @@
 					<section class="main">
 						<div class="row justify-content-center">
 							<div class="col-sm-12">
-								<img class="animated slideInDown img-responsive mb-2"  src="{{url('/')}}/img/logo.png" alt="">
+								<img class="animated slideInDown img-responsive mb-2"  src="{{url('/')}}/img/logo.png" alt="Tweeter logo">
 							</div>
 						</div>
 					<head><h1 class="animated bounceInLeft delay-1s ">Wellcom to Tweeter</h1></head>
@@ -44,6 +46,10 @@
 									@csrf
 									<button type="submitt" class=" animated pulse btn btn-danger btn-lg" id="logobutton">SIGN UP</button>
 								</form>
+								<div class="scrollDown mt-5">
+									
+									<i class="fas fa-arrow-down animated  infinite bounce"></i>
+								</div>
 								
 							</div>
 						</div>
@@ -70,7 +76,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-auto" id="footer">
-						<a href="">Questions? Call 1-877-742-1335</a><br>
+						<a href="">Questions? Call 1-877-842-1535</a><br>
 						<a href="">FAQ</a><br>
 						<a href="">Corporate Information</a><br>
 						<a href="">Help</a><br>

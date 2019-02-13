@@ -34,4 +34,11 @@ Route::get('/dislike/{id}','likeController@dislike');
 Route::get('/show','likeController@show');
 Route::get('/find', 'likeController@index');
 Route::post('/follow', 'FollowController@store');
+
+
+Route::get('/axioslike{id}','likeController@like');
+Route::get('/axiosdDislike{id}','likeController@dislike');
 // Route::post('/comment','CommentController@store');
+
+Route::get('login/github', 'Auth\LoginController@redirectToProvider');
+Route::get('login/github/callback', 'Auth\LoginController@handleProviderCallback');

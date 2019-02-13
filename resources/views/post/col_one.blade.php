@@ -1,4 +1,4 @@
-<div class="col-lg-3">
+<div class="col-lg-3 mt-3">
     <div class="card">
         <img class="card-img-top" src="{{url('/')}}/img/556511.jpg" alt="Card image cap">
         <div class="card-body">
@@ -15,7 +15,7 @@
         
         
     </div>
-    <div class="col-lg-16">
+    <div class="col-lg-16 mt-5">
         
         <div class="card" >
             <div class="card-body">
@@ -41,13 +41,16 @@
             </div>
         </div>
     </div>
-    <div class="col-lg-16">
+    <div class="col-lg-16 mt-5">
         
         <div class="card" >
             <div class="card-body">
                 <div class="qa">
-                    Photos
+                    <div class="photo">
+                         Photos
                     <small><a href="#">.Edit</a></small>
+                    </div>
+                   
                     @foreach($tweets as $tweet)
                     <img src="{{ asset('uploads/avatars/'. $tweet->image) }}" class="img-thumbnail" style="width:100px; height:100px;">
                     @endforeach

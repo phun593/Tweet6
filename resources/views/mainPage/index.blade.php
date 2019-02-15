@@ -6,7 +6,6 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<meta name="description" content="Tweeter">
 		<meta property="og:description" content="Tweeter Where You Can Stay up to Datate with in th word of banding">
-		
 	</head>
 	<link rel="stylesheet" type="text/css" href="{{url('/')}}/css/fullpage.css">
 	<link rel="stylesheet" type="text/css" href="{{url('/')}}/css/examples.css">
@@ -25,29 +24,27 @@
 							</div>
 						</div>
 					<head><h1 class="animated bounceInLeft delay-1s ">Wellcom to Tweeter</h1></head>
-					<p class="animated bounceInRight delay-1s">Where You Can Stay up to Datate with in th word of banding</p>
+					<p class="animated bounceInRight delay-1s">Where You Can Stay up to Date with in the World.</p>
 					<div class="container mb-5">
 						<div class="row text-cente mb-5 pb-5">
 							<div class="col-md-3">
-								<i class="fas fa-search"></i><h4>Follow the best  Bending Master in the world.</h4>
+								<i class="fas fa-search"></i><h4>Search for the Best  Bending Master.</h4>
 								<form method="post" action="{{'/loginPage'}}">
 									@csrf
 									<button type="submitt" class=" animated pulse btn btn-danger btn-lg " id="logobutton">Log In</button><br>
 									
 								</form>
-								
 							</div>
 							<div class=col-md-6>
-								<i class="far fa-comments"></i><h4>Join the conversation.</h4>
+								<i class="far fa-comments"></i><h4>Join the Conversation.</h4>
 							</div>
 							<div class="col-md-3">
-								<i class="fas fa-user-friends"></i><h4>Hear what people are talking about.</h4>
+								<i class="fas fa-user-friends"></i><h4>Hear what People are Talking About.</h4>
 								<form method="post" action="{{'/registerPage'}}">
 									@csrf
 									<button type="submitt" class=" animated pulse btn btn-danger btn-lg" id="logobutton">SIGN UP</button>
 								</form>
 								<div class="scrollDown mt-5">
-									
 									<i class="fas fa-arrow-down animated  infinite bounce"></i>
 								</div>
 								
@@ -76,7 +73,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-auto" id="footer">
-						<a href="">Questions? Call 1-877-842-1535</a><br>
+						<a href="tel:1-877-842-1535">Questions? Call 1-877-842-1535</a><br>
 						<a href="">FAQ</a><br>
 						<a href="">Corporate Information</a><br>
 						<a href="">Help</a><br>

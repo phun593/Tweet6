@@ -9,6 +9,9 @@ Requirements:
 
 - Mobile responsive
 
+-Requirements:
+
+
 Follow user*
 
 Unfollow user*
@@ -21,7 +24,15 @@ Tweets
    
     -Read
     
-    -Like button
+    -Like button/unlike
+    
+            -AJAX Like button
+            
+            -Use AJAX to update the like count in the database
+            
+            -Update the displayed like count without a refresh
+            
+            -visual indication that you have liked a post
     
     -Retweet button
     

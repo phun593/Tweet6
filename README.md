@@ -6,6 +6,8 @@ Requirements:
 
 - Laravel
 
+- Vue Js
+
 - Bootstrap, Bulma, or comparable framework
 
 - Mobile responsive
@@ -24,7 +26,7 @@ Tweets
     -Tweet using an uploaded photo
     
    
-    -Read
+    -Read and Paginate
     
     -Like button/unlike
     

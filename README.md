@@ -4,11 +4,17 @@ This is one of my school assignment.
 Requirements:
 
 - Laravel
+
 - Bootstrap, Bulma, or comparable framework
+
 - Mobile responsive
+
 Follow user*
+
 Unfollow user*
+
 Tweets
+
     -Create
     -Tweet using an uploaded photo
     
@@ -16,20 +22,35 @@ Tweets
     -Read
     
     -Like button
+    
     -Retweet button
+    
     -Comments
+    
     -Create (write comment form)
+    
     -Read (view list of comments)
+    
     -Update
+    
     -Destroy
+    
     -Update
+    
     -Delete
+    
 Users
+
     -Create
+    
     -Registration/Signup page
+    
     -Read
+    
     -User profile
+    
     -Update
+    
 
 NOTICE* - These requirements are subject to modifications, additions, and surprises! Budget your time accordingly.  Don't forget to use Git Branch workflow to develop new features!  Project must be submitted via Git (This project should have it's own dedicated repository!!!)
  

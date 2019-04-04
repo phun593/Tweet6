@@ -1,5 +1,6 @@
 # tweet6
-This is one of my school assignment. 
+This is one of my school assignment. Try to  make a version a twitter.
+
 
 Requirements:
 
@@ -61,6 +62,8 @@ Users
     -Create
     
     -Registration/Signup page
+    
+    -Login with Github
     
     -Read
     

@@ -1,32 +1,33 @@
 # tweet6
-
+This
 - Laravel
 - Bootstrap, Bulma, or comparable framework
 - Mobile responsive
 Follow user*
 Unfollow user*
 Tweets
-Create
-Read
-Share
-Like button
-Retweet button
-Comments
-Create (write comment form)
-Read (view list of comments)
-Update
-Destroy
-Update
-Delete
+    -Create
+    -Tweet using an uploaded photo
+    
+   
+    -Read
+    
+    -Like button
+    -Retweet button
+    -Comments
+    -Create (write comment form)
+    -Read (view list of comments)
+    -Update
+    -Destroy
+    -Update
+    -Delete
 Users
-Create
-Registration/Signup page
-Read
-User profile
-Update
-Edit user form
-Destroy
-Delete user account
+    -Create
+    -Registration/Signup page
+    -Read
+    -User profile
+    -Update
+
 NOTICE* - These requirements are subject to modifications, additions, and surprises! Budget your time accordingly.  Don't forget to use Git Branch workflow to develop new features!  Project must be submitted via Git (This project should have it's own dedicated repository!!!)
  
 Marketing Page (required)
@@ -37,11 +38,7 @@ Alt attributes on images
 Proper use of <h#> heading tags
 Well formatted written page content.
 The marketing page should persuade me to want to use your Tweeter application.  Tell me about features, benefits, and why I should use your platform!
- 
-Single-page scroller layout
-Examples & inspiration: https://www.intechnic.com/blog/60-beautiful-examples-of-one-page-website-design-inspirations/
- (Links to an external site.)
-Links to an external site.
+
  
  
 Utilize ScrollMagic or a comparable JavaScript library to animate page elements as scrolling occurs

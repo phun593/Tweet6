@@ -1,5 +1,7 @@
 # tweet6
-This
+This is one of my school assignment. 
+Requirements:
+
 - Laravel
 - Bootstrap, Bulma, or comparable framework
 - Mobile responsive

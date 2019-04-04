@@ -50,6 +50,11 @@ Tweets
         -Update
 
         -Delete
+        
+     GIF Comments
+            Your Vue Giphy Search module must be integrated in to Tweeter
+            Users should be able to make comments that use GIF images instead of text.
+
 
 Users
 
